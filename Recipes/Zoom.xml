@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--App List-->
+<Apps Owner="MECM Buddy">
+	<App nameOfApp="Zoom">
+		<vendor>Zoom Video Communications, Inc.</vendor>
+		<version>4.0.4</version>
+		<fileExt>MSI</fileExt>
+		<description>Zoom is the leader in modern enterprise video communication, with an easy, reliable cloud platform for video and audio conferencing, collaboration, chat, and webinars across mobile devices, desktops, telephones, and room systems.</description>
+		<iconFile>\\network\app\</iconFile>
+		<userDocumentText>For more help with Zoom click here</userDocumentText>
+		<userDocumentLink>https://zoom.com</userDocumentLink>
+		<userPrivacyLink>https://zoom.com</userPrivacyLink>
+		<serverLoc>\\network\app\</serverLoc>
+		<installCommand>'Deploy-Application-Zoom.ps1'</installCommand>
+		<uninstallCommand>'Deploy-Application-Zoom.ps1' -DeploymentType 'uninstall'</uninstallCommand>
+		<detectPath/>
+		<detectPath1/>
+		<registryPath>HKLM:\SOFTWARE\MECM\Zoom</registryPath>
+		<registryItem>installed</registryItem>
+		<registryItemValue>1</registryItemValue>
+		<appScriptDateStamp>04-22-2022</appScriptDateStamp>
+		<distributionPointURL>mecm.domain.com</distributionPointURL>
+		<distributionPointGroupName>Device collection here</distributionPointGroupName>
+	</App>
+</Apps>
