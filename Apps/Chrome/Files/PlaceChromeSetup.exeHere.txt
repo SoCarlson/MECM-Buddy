@@ -1,0 +1,2 @@
+You need to check the script and make sure it launches the exe files you want installed. 
+Some PowerShell scripting/programming is required. 
