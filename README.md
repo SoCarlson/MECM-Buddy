@@ -11,3 +11,5 @@ It relies on a few PowerShell module dependencies, like Evergreen (GitHub), Conf
 I'm a college student who is just getting started, so if you would like to contribute, please do! If you want to contribute, you can add pull requests. Also, pay attention to the licensing. You need to credit Sophie Carlson (me) if you use my code and provide a link back to this project!
 
 Also, head over to my site for more information and higher detail documentation at: socarlson (dot) com
+
+Made with love by a human. No Ai was used in the making of this software. 
